@@ -10,6 +10,6 @@ public class BoardController {
     @GetMapping("/")
     @ResponseBody
     public String main() {
-        return "Hello world!!";
+        return "Hello world!!!";
     }
 }

@@ -3,8 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <title>index</title>
+    <style>
+        .uid {
+            padding-bottom: 0.25rem;
+        }
+        #user {
+            display: flex;
+            flex-direction: column;
+            padding-bottom: 1rem;
+        }
+
+    </style>
 </head>
 <body>
-    실행되나 확인
+<header>
+    <h1>Login</h1>
+</header>
+<section>
+    <form action="/login" method="get">
+        <div id="user">
+            <label for="uid" class="uid">
+                <input type="text" id="uid" placeholder="ID">
+            </label>
+            <label for="pwd" class="pwd">
+                <input type="password" id="pwd" placeholder="Password">
+            </label>
+        </div>
+        <input type="submit" value="로그인">
+        <input type="button" value="회원가입">
+    </form>
+
+</section>
+<footer>
+    footer
+</footer>
+
 </body>
 </html>
